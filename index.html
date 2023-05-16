@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body class="w-96 ms-5 mt-5">
+    <div class="calcu m-auto p-2 rounded-xl">
+        <div>
+            <input id="inpTotal" class="m-auto text-end w-full my-1 border-none text-2xl font-semibold" type="number"
+                readonly>
+        </div>
+        <div class="divNum grid grid-cols-3 justify-items-center w-60 gap-7 mx-12 mb-5 text-lg">
+            <p></p>
+            <button id="borrar" class="w-20 h-20 bg-[#51b5c2] rounded-full">Borrar</button>
+            <button id="reiniciar" class="w-20 h-20 bg-[#51b5c2] rounded-full">Reiniciar</button>
+        </div>
+        <div class="divNum grid grid-cols-3 justify-items-center w-60 gap-7 mx-12 mb-5">
+            <button id="num1" class="w-20 h-20 bg-[#51b5c2] rounded-full ">1</button>
+            <button id="num2" class="w-20 h-20 bg-[#51b5c2] rounded-full ">2</button>
+            <button id="num3" class="w-20 h-20 bg-[#51b5c2] rounded-full ">3</button>
+            <button id="num4" class="w-20 h-20 bg-[#51b5c2] rounded-full ">4</button>
+            <button id="num5" class="w-20 h-20 bg-[#51b5c2] rounded-full ">5</button>
+            <button id="num6" class="w-20 h-20 bg-[#51b5c2] rounded-full ">6</button>
+            <button id="num7" class="w-20 h-20 bg-[#51b5c2] rounded-full ">7</button>
+            <button id="num8" class="w-20 h-20 bg-[#51b5c2] rounded-full ">8</button>
+            <button id="num9" class="w-20 h-20 bg-[#51b5c2] rounded-full ">9</button>
+            <button id="coma" class="w-20 h-20 bg-[#51b5c2] rounded-full ">,</button>
+            <button id="num0" class="w-20 h-20 bg-[#51b5c2] rounded-full ">0</button>
+            <button id="igual" class="w-20 h-20 bg-[#51b5c2] rounded-full ">=</button>
+        </div>
+        <div class="ms-1">
+            <button id="suma" class="w-20 h-20 bg-[#d9f1f4] rounded-full text-2xl">+</button>
+            <button id="resta" class="w-20 h-20 bg-[#d9f1f4] rounded-full text-2xl">-</button>
+            <button id="multiplicar" class="w-20 h-20 bg-[#d9f1f4] rounded-full text-2xl">x</button>
+            <button id="dividir" class="w-20 h-20 bg-[#d9f1f4] rounded-full text-2xl">/</button>
+        </div>
+    </div>
+
+
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
